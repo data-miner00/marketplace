@@ -1,0 +1,67 @@
+[
+  {
+    "id": "feature_react",
+    "feature": "React",
+    "disabled": false
+  },
+  {
+    "id": "feature_routing",
+    "feature": "Routing",
+    "disabled": false
+  },
+  {
+    "id": "feature_bundler",
+    "feature": "Bundler",
+    "disabled": false
+  },
+  {
+    "id": "feature_tailwind",
+    "feature": "TailwindCSS",
+    "disabled": false
+  },
+  {
+    "id": "feature_formatter",
+    "feature": "Formatter",
+    "disabled": false
+  },
+  {
+    "id": "feature_linter",
+    "feature": "Linter",
+    "disabled": false
+  },
+  {
+    "id": "feature_dv",
+    "feature": "Data validation",
+    "disabled": false
+  },
+  {
+    "id": "feature_i18n",
+    "feature": "Internationalization",
+    "disabled": false
+  },
+  {
+    "id": "feature_dark",
+    "feature": "Dark Mode",
+    "disabled": false
+  },
+  {
+    "id": "feature_unit",
+    "feature": "Unit Testing",
+    "disabled": false
+  },
+  {
+    "id": "feature_e2e",
+    "feature": "End-to-end Testing",
+    "disabled": false
+  },
+  {
+    "id": "feature_animation",
+    "feature": "Animation",
+    "disabled": false
+  },
+  {
+    "id": "feature_icon",
+    "feature": "Icons",
+    "disabled": false
+  }
+]
