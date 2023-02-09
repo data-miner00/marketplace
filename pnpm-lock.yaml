@@ -16,7 +16,7 @@ importers:
       turbo: 1.7.4
       typescript: 4.9.5
 
-  apps/client:
+  apps/web:
     specifiers:
       '@testing-library/jest-dom': ^5.16.5
       '@testing-library/react': ^13.4.0
