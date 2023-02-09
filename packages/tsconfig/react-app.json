@@ -1,4 +1,6 @@
 {
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "React.js",
   "compilerOptions": {
     "lib": ["es6", "dom"],
     "allowJs": false,
