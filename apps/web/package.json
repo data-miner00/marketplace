@@ -7,7 +7,7 @@
     "build": "pnpm build:esb && pnpm build:tw",
     "watch:esb": "node esbuild.config.js",
     "build:esb": "esbuild src/index.tsx --bundle --minify --outfile=public/dist/bundle.js",
-    "start": "lite-server",
+    "start": "lite-server -- port 3000",
     "lint": "eslint src/**/*.{ts,tsx}",
     "lint:fix": "eslint src/**/*.{ts,tsx} --fix",
     "test": "jest",
