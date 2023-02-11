@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className="App">
-      <div>
+      <div className="flex justify-center">
         <a href="https://vitejs.dev" target="_blank">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
         </a>

@@ -61,6 +61,26 @@ Next, you can link your Turborepo to your Remote Cache by running the following 
 pnpm dlx turbo link
 ```
 
+## Filtering
+
+If you only want to run the `dev` script for the `web` app only, you can use filters in Pnpm like this.
+
+```
+pnpm --filter web run dev
+```
+
+For Yarn users, try this.
+
+```
+yarn workspace web run dev
+```
+
+## Add Dependencies to Root
+
+```
+pnpm i -w -D tailwindcss
+```
+
 ## Useful Links
 
 Learn more about the power of Turborepo:

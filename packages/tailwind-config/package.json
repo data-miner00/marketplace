@@ -1,0 +1,14 @@
+{
+  "name": "tailwind-config",
+  "version": "0.0.0",
+  "private": true,
+  "files": [
+    "tailwind.base.config.js",
+    "postcss.base.config.js"
+  ],
+  "dependencies": {
+    "tailwindcss": "^3.2.1",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21"
+  }
+}

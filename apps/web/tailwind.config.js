@@ -1,9 +1,7 @@
+const config = require("tailwind-config/tailwind.base.config.js");
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./public/**/*.html", "./src/**/*.{js,jsx,ts,tsx,vue}"],
+  ...config,
   darkMode: "class",
-  theme: {
-    extend: {},
-  },
-  plugins: [],
 };
