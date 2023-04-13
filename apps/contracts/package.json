@@ -1,10 +1,12 @@
 {
   "name": "contracts",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "The smart contracts factory for the Marketplace",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.ts --network <network>",
+    "console": "hardhat console"
   },
   "keywords": [],
   "author": "",
