@@ -12,7 +12,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@ethereum-waffle/mock-contract": "^4.0.4",
     "@ethersproject/abi": "^5.4.7",
+    "@ethersproject/bytes": "^5.7.0",
     "@ethersproject/providers": "^5.4.7",
     "@nomicfoundation/hardhat-chai-matchers": "^1.0.0",
     "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
